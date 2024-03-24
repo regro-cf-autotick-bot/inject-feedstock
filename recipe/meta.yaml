@@ -1,13 +1,13 @@
 {% set name = "inject" %}
-{% set version = "4.3.1" %}
+{% set version = "5.2.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/Inject-{{ version }}.tar.gz
-  sha256: 7f996f2c9ed2082af776ddf6b528d97036898ac63040385feb1d12286a73c3cc
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: f7c305a75cc4e3a331d248e996f25783ba784b88d5a9b9f73c53eacaa6d76985
 
 build:
   number: 0
